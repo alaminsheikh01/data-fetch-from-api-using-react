@@ -1,9 +1,11 @@
 import PostList from "./API/PostList";
+import PostForm from './API/PostForm'
 
 function App() {
   return (
     <div>
-      <PostList/>
+      {/* <PostList/> */}
+      <PostForm/>
     </div>
   );
 }
